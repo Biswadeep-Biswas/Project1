@@ -1,0 +1,114 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 0px;
+    }
+    s
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.8); 
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .header {
+        background:  rgb(205, 202, 202);
+        color: rgb(0, 0, 0);
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+    
+    .subheading {
+        font-size: 1.2em;
+    }
+    
+    .countdown {
+        text-align: center;
+        padding: 20px;
+        background: rgba(192, 244, 110, 0.9);
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+    
+    .countdown h2 {
+        margin: 0;
+        font-size: 2em;
+    }
+    
+    .countdown-timer {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+    }
+    
+    .time-unit {
+        background: #fff;
+        border: 2px solid #ff69b4;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 0 5px;
+    }
+    
+    .photo-gallery {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .photo-gallery h2 {
+        margin-bottom: 20px;
+    }
+    
+    .gallery {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .gallery img {
+        border-radius: 10px;
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        transition: transform 0.3s;
+    }
+    
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+
+
+    .link h3 {
+
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .link2 {
+
+        text-align: center;
+        font-size: 2.5em;
+        position: relative;
+        top: -25px;
+
+    }
+    
+    .footer {
+        text-align: center;
+        padding: 20px 0;
+        background: rgb(205, 202, 202);
+        color: rgb(0, 0, 0);
+        position: fixed;
+        bottom: 0;
+       width: 100%
+    }
+    
